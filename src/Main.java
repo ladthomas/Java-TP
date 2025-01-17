@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/Entreprise";
         String user = "root";
-        String password = "Poukiem34*";
+        String password = "";
 
         try (Connection conn = DriverManager.getConnection(url, user, password);
              Scanner scanner = new Scanner(System.in)) {
